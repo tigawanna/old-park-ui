@@ -19,6 +19,6 @@
     "lefthook": "1.6.18",
     "typescript": "5.5.3"
   },
-  "packageManager": "bun@1.1.18",
+
   "trustedDependencies": ["@park-ui/website"]
 }
