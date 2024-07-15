@@ -14,7 +14,7 @@ export default defineConfig({
   markdown: {
     syntaxHighlight: false,
   },
-  redirects: {
-    '/': '/docs/panda/overview/introduction',
-  },
+  // redirects: {
+  //   '/': '/docs/panda/overview/introduction',
+  // },
 })
