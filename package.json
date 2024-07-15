@@ -2,7 +2,7 @@
   "name": "root",
   "type": "module",
   "private": true,
-  "workspaces": ["components/*", "packages/*", "templates/*", "scripts", "website"],
+  "workspaces": ["components/*", "packages/*", "templates/*", "scripts", "website","old-parkui-site"],
   "scripts": {
     "postinstall": "lefthook install",
     "scripts": "bun run --cwd scripts",
@@ -20,5 +20,5 @@
     "typescript": "5.5.3"
   },
 
-  "trustedDependencies": ["@park-ui/website"]
+  "trustedDependencies": ["@park-ui/website","@park-ui/old-parkui-site"]
 }

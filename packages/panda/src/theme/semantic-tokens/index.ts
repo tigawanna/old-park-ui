@@ -6,10 +6,10 @@ import { shadows } from './shadows'
 
 export const createSemanticTokens = (options: PresetOptions) => {
   const {
-    accentColor = 'neutral',
+    accentColor = 'green',
     additionalColors = [],
     borderRadius = 'sm',
-    grayColor = 'neutral',
+    grayColor = 'sage',
   } = options
 
   const availableColors = [grayColor, accentColor, ...additionalColors]
